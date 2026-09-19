@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chypher and dechypher</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="inputContainer">
+            <input type="text" id="pass" placeholder="Password">
+            <div class="btns">
+                <button id="encrypt">Зашифрувати</button>
+                <button id="decrypt">Дешифрувати</button>
+                <button id="clear">Очистити</button>
+            </div>
+            <h2>Ключ</h2>
+            <select id="key">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </div>
+        <div class="outputContainer">
+        
+            <input type="text" id="result" placeholder="Result">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
